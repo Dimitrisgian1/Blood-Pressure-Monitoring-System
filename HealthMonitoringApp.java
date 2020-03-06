@@ -4,7 +4,8 @@ public class HealthMonitoringApp {
 
 	public static void main(String[] args) {
 		
-		BPMS.fetch();
+        // BPMS.fetch();
+        Measurement.PRINT();
 	}
 
 }
